@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "npm run test -- --watch",
+    "test:jest": "jest",
+    "test:jest:watch": "npm run test:jest -- --watch",
+    "start": "nodemon start.ts",
+    "dev": "nodemon start.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/mocha": "^10.0.10",
+    "i": "^0.3.7",
+    "npm": "^11.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
